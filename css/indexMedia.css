@@ -1,0 +1,171 @@
+@media (width < 950px) {
+  
+  .header_title {
+    font-size: var(--mediumFont);
+  }
+  .header_nav {
+    gap: 1em;
+  }
+
+  .header_link {
+    background-color: transparent;
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .certi_img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+
+@media (width < 850px) {
+  
+    /* HEADER DESPLEGABLE */
+     .header_logo{
+      width: 100%;
+      justify-content: space-between;
+    }
+
+
+     .header_open{
+      display: block;
+      max-width: 25px;
+      margin-right: 1.5rem;
+        } 
+
+    .header_close{
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 15px;
+      margin-top: 1rem;
+      margin-right: 1rem;
+    } 
+
+
+    .header_nav{
+      flex-direction: column ;
+      align-items: center;
+      background-color: var(--purpleColor);
+      padding: 2.5rem;
+      max-width: 200px;
+      width: 100%;
+
+      position: absolute ;
+      top: 0;
+      right: 0;
+
+      /* Ocultar menu */
+      opacity: 0;
+      visibility: hidden; 
+    }
+
+    /* Mostrar menu */
+    .header_nav_visible {
+      opacity: 1;
+      visibility: visible; 
+    }
+
+    .header_link:hover{
+      text-align: center;
+      color: var(--selectColor);
+      background-color: var(--white);
+      border-radius:15px;
+      padding: 5px;
+      width: 100%;
+    }
+
+    .header_title{
+      display: none;
+    }
+
+  /* PRINCIPAL */
+ 
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .principal_img_grande{
+    max-width: 400px;
+    max-height: 350px;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .about_img {
+    max-width: 400px;
+    max-height: 350px;
+  }
+
+  .know {
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+  }
+
+  .know_img {
+    max-width: 300px;
+    max-height: 350px;
+  } 
+
+  .proje_completo {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .proje_img {
+    max-width: 280px;
+    max-height: 350px;
+    width: 100%;
+  }
+
+  .proje_texto {
+    align-items: center;
+    text-align: center;
+  }
+
+  .certi_all {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+  }
+
+  .certi_img {
+    max-width: 300px;
+    max-height: 350px;
+  }
+
+  .course_all {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+  }
+
+  .colab_all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colab {
+    text-align: center;
+    padding: 25px;
+  }
+
+  
+  .footer_parra {
+    font-size: var(--smallerFont);
+  }
+}
